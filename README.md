@@ -1,9 +1,34 @@
-# To-Do_List
+# To-Do-List App
+An application to add the To Do items in a checklist form. The user can also delete the item by just clicking on the checkbox.
 
-To-Do_List is a simple web application to save Your daily tasks in order not to miss anything.
+# Idea
+* It is a well known fact that writing things down in a list helps in better work management
+* Making such lists on a paper is a thing of the past
+* A Web-based application which allows user to type their list down and delete it when they are done with it
 
-Web Preview
-![to-do_list-img](https://user-images.githubusercontent.com/90759917/183244877-2bdfb2b8-f3e3-426e-8785-47760761d72c.png)
- 
-Phone Preview
-![to-do_list-img-phone](https://user-images.githubusercontent.com/90759917/183244951-dbd77515-66fa-4755-9f65-4164eb14a12c.png)
+# Tools Used
+Used HTML5, CSS3, Bootstrap, Node.js, Express.js, MongoDB (mongoose), EJS template engine, Lodash utility functions and JavaScript
+
+# How to use the application
+* The default list comes with a heading called **"Today"**
+* The user can change the heading according to the requirement. **For Example:-** If the user want to use a list for work,  **/work** can be added as a suffix in the URL
+* To add an item, the user can click on the placeholder **New Item** and type the item which needs to be added
+* After typing it, the user can click on **'+'** button to add it in the list
+* When the user is done with the work mentioned in the list or if the user want to delete the item from the list, they can click on the **checkbox** beside that item and the item gets a strikethrough and gets deleted automatically
+
+# Important Note
+* The To-Do list app have a default page with **Today** as the title. If the user navigate to **/work** list, the item added in work list won't appear in any other list, say **/shopping** list.
+* The item added in a particular list will be persisted when the user navigates to different lists.
+
+# Screenshots
+![](public/css/img/preview.png)
+
+![](public/css/img/about1.png)
+
+![](public/css/img/delete.png)
+
+![](public/css/img/work.png)
+
+![](public/css/img/to-do_list-img-phone.png)
+
+
