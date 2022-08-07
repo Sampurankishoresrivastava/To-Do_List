@@ -21,14 +21,15 @@ Used HTML5, CSS3, Bootstrap, Node.js, Express.js, MongoDB (mongoose), EJS templa
 * The item added in a particular list will be persisted when the user navigates to different lists.
 
 # Screenshots
+* **Home**
 ![](public/css/img/preview.png)
-
+* **about**
 ![](public/css/img/about1.png)
-
+* **After deleting item from list**
 ![](public/css/img/delete.png)
-
+* **work**
 ![](public/css/img/work.png)
-
+* **Phone Previw Home**
 ![](public/css/img/to-do_list-img-phone.png)
 
 
